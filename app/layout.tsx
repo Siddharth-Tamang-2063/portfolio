@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   description:
     'Portfolio of Siddharth Tamang, a results-driven Full-Stack MERN developer specializing in TypeScript, secure REST APIs, and GSAP-powered interactive UIs.',
   generator: 'v0.app',
+    icons: {
+    icon: "/images/R.jpg",
+  },
 }
 
 export const viewport: Viewport = {
