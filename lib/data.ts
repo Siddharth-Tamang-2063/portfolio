@@ -143,7 +143,7 @@ export const education = [
     place: 'Adarsha Secondary School, Biratnagar',
     date: 'Jul 2023',
     detail:
-      'Coursework: DSA, Computer Networks, OS, DBMS, Web Technologies, OOP. Preparing for IOE entrance — targeting B.E. Computer Engineering, Pulchowk Campus.',
+      'Coursework: DSA, Computer Networks, OS, DBMS, Web Technologies, OOP, Prompt Engineering, AI automations',
   },
   {
     title: 'Secondary Education — Electrical Engineering Track',
