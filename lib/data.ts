@@ -129,7 +129,7 @@ export const projects = [
     title: 'YS Studio',
     subtitle: 'Cart Management App',
     year: '2024',
-    url: 'https://ys-studio.vercel.app/cart',
+    url: 'https://ys-studio.vercel.app',
     color: 'bg-neo-muted',
     description:
       'Zustand global state (add/remove/qty/totals), TypeScript REST API integration, optimistic UI updates. Core Web Vitals (LCP, CLS, FID) all green on mobile and desktop.',
