@@ -113,18 +113,18 @@ export const projects = [
     color: 'bg-neo-accent',
     description:
       'Full MERN e-commerce app: product listings, cart, checkout, JWT auth with RBAC (buyer/admin), Mongoose schema design, server-side pagination & filtering APIs.',
-    stack: ['React', 'Node.js', 'MongoDB', 'TypeScript', 'JWT', 'Tailwind'],
+    stack: ['React', 'Node.js', 'MongoDB', 'Javascript', 'JWT', 'Tailwind'],
   },
-  {
-    title: 'BuzzCraft Media',
-    subtitle: 'Digital Marketing Agency Site',
-    year: '2024',
-    url: 'https://buzzcraft-media.vercel.app',
-    color: 'bg-neo-secondary',
-    description:
-      'Complex GSAP timelines: pinned sections, parallax, staggered reveals. TypeScript full stack with 90+ Lighthouse score via lazy loading and Vite code splitting.',
-    stack: ['React', 'TypeScript', 'Node.js', 'GSAP', 'ScrollTrigger', 'Tailwind'],
-  },
+{
+  title: 'Web ChatApp',
+  subtitle: 'Real-Time AI Chat Web App',
+  year: '2024',
+  url: 'https://chatapp-6qu6.vercel.app/',
+  color: 'bg-neo-secondary',
+  description:
+    'Modern real-time chat application with AI assistance, instant messaging, typing indicators, message history, and responsive UI. Built with React and TypeScript, optimized using Vite code splitting and lazy loading, achieving a 90+ Lighthouse performance score.',
+  stack: ['React', 'Javascript', 'Node.js', 'Socket.IO', 'Tailwind CSS', 'Vite'],
+},
   {
     title: 'YS Studio',
     subtitle: 'Cart Management App',
