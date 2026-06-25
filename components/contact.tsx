@@ -56,7 +56,9 @@ export function Contact() {
         <div className="reveal flex justify-center">
           <Magnetic strength={0.5}>
             <a
-              href={`mailto:${profile.email}`}
+                       href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
               className="inline-flex h-16 items-center gap-3 border-4 border-white bg-neo-accent px-8 font-heading text-xl font-black uppercase tracking-wide text-black neo-shadow-white transition-all duration-100 hover:-translate-y-1 active:translate-x-[4px] active:translate-y-[4px] active:shadow-none"
             >
               <Mail className="h-6 w-6" strokeWidth={3} />
