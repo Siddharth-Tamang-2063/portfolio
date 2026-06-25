@@ -43,7 +43,9 @@ export function Navbar() {
         </div>
 
         <a
-          href={`mailto:${profile.email}`}
+          href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
           className="hidden border-4 border-black bg-black px-4 py-2.5 font-bold uppercase tracking-wide text-white neo-shadow-sm transition-all duration-100 hover:-translate-y-0.5 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none lg:inline-block"
         >
           Hire Me
@@ -73,7 +75,9 @@ export function Navbar() {
             </a>
           ))}
           <a
-            href={`mailto:${profile.email}`}
+            href={`https://mail.google.com/mail/?view=cm&fs=1&to=${profile.email}`}
+  target="_blank"
+  rel="noopener noreferrer"
             onClick={() => setOpen(false)}
             className="border-4 border-black bg-neo-accent px-4 py-3 text-center font-bold uppercase tracking-wide text-black neo-shadow-sm"
           >
