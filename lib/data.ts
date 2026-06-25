@@ -93,7 +93,7 @@ export const experience = [
   {
     role: 'Full-Stack Developer',
     company: 'Freelance / Self-Employed (Remote)',
-    period: 'Jan 2022 – Present',
+    period: 'Jan 2024 – Present',
     points: [
       'Delivered 5+ production MERN applications end-to-end: frontend UI, Express.js REST APIs, MongoDB schema design, and Vercel deployment for startup clients.',
       'Architected JWT-secured APIs with RBAC middleware, request validation, rate limiting, and centralized error handling in MVC structure.',
