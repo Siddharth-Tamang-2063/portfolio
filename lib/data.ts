@@ -115,6 +115,16 @@ export const projects = [
       'Full MERN e-commerce app: product listings, cart, checkout, JWT auth with RBAC (buyer/admin), Mongoose schema design, server-side pagination & filtering APIs.',
     stack: ['React', 'Node.js', 'MongoDB', 'Javascript', 'JWT', 'Tailwind'],
   },
+  {
+  title: 'Poster AI',
+  subtitle: 'AI Poster Generation Studio',
+  year: '2026',
+  url: 'https://ai-poster-generator-xi.vercel.app/',
+  color: 'bg-neo-muted',
+  description:
+    'AI-powered poster editor with FLUX diffusion image generation (NVIDIA NIM + HuggingFace), Groq-powered copywriting, and a drag-and-drop canvas. Supports FLUX.1 Schnell, FLUX.2 Klein, and FLUX.1 Dev models.',
+  stack: ['React', 'Node.js', 'Express', 'Groq', 'NVIDIA NIM', 'HuggingFace'],
+},
 {
   title: 'Web ChatApp',
   subtitle: 'Real-Time AI Chat Web App',
@@ -135,6 +145,7 @@ export const projects = [
       'Zustand global state (add/remove/qty/totals), TypeScript REST API integration, optimistic UI updates. Core Web Vitals (LCP, CLS, FID) all green on mobile and desktop.',
     stack: ['React', 'TypeScript', 'Node.js', 'Zustand', 'Tailwind'],
   },
+
 ]
 
 export const education = [
